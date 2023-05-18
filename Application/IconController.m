@@ -78,7 +78,7 @@ typedef NS_ENUM(NSUInteger, PlatypusIconPreset) {
 
 - (void)dealloc {
     [[WORKSPACE notificationCenter] removeObserver:self];
-    dispatch_release(iconWritingDispatchQueue);
+//     dispatch_release(iconWritingDispatchQueue);
 }
 
 - (void)awakeFromNib {
