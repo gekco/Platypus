@@ -692,6 +692,8 @@
     
     for (NSString *path in self[AppSpecKey_BundledFiles]) {
         if (![FILEMGR fileExistsAtPath:path]) {
+            NSString *p1 = [[NSFileManager defaultManager] currentDirectoryPath];
+            NSLog(@"Unable to find file at path %@ %@", path, p1);
             _error = @"One or more bundled files no longer exist at the specified path.";
             return NO;
         }
