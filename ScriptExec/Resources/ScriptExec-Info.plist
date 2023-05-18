@@ -95,5 +95,7 @@
 			<integer>3000</integer>
 		</dict>
 	</array>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.13</string>
 </dict>
 </plist>
