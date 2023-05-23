@@ -851,9 +851,6 @@ static const NSInteger detailsHeight = 224;
     // add arguments for script
     [arguments addObjectsFromArray:scriptArgs];
 
-    NSString *myNSString = @"test";
-    [arguments addObject:myNSString];
-
     NSLog(@"THIS IS A NEW VERSION ");
 
     NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
